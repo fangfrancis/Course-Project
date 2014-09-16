@@ -1,8 +1,8 @@
 #Getting and Cleaning Data: Course Project
 
 # 0. Read data
-features <-  read.table("UCI HAR Dataset/features.txt")
-activity_labels <-  read.table("UCI HAR Dataset/activity_labels.txt")
+features <- read.table("UCI HAR Dataset/features.txt")
+activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
 subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
 x_train <- read.table("UCI HAR Dataset/train/X_train.txt")
 y_train <- read.table("UCI HAR Dataset/train/y_train.txt")

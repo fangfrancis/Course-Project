@@ -39,6 +39,23 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 - 'train/Inertial Signals/body_acc_x_train.txt': The body acceleration signal obtained by subtracting the gravity from the total acceleration. 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second.
 
+**Variables in the R script**
+
+- features: read features.txt
+- activity_labels: read activity_labels.txt
+- subject_train: read subject_train.txt
+- x_train: read X_train.txt
+- y_train: read y_train.txt
+- subject_test: read subject_test.txt
+- x_test: read X_test.txt
+- y_test: read y_test.txt
+- subject_all: rbind subject_test, subject_train
+- x_all: rbind x_test, x_train
+- y_all: rbind y_test, y_train
+- col_mstd: Extracts only the column on the mean and standard deviation for each measurement.
+- data_all: cbind subject_all, y_all, x_all
+- tidy_data: aggregate and subset data_all
+
 ## Transformations ##
 The script will run the following process to generate tidy_data_all.txt:
 
