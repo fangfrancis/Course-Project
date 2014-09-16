@@ -8,7 +8,7 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-The Samsung data is in my working directory, "run_analysis.R" is a R script that uses this dataset and creates a tidy data that can be used for later analysis. The CodeBook.md, describing the variables, the data, and any transformations or work that you performed to clean up the data is in the repo. The script will run the following process to generate tidy_data_all.txt:
+The Samsung data is in my working directory, "run_analysis.R" is a R script that uses this dataset and creates a tidy data that can be used for later analysis. The CodeBook.md, describing the variables, the data, and any transformations or work that I performed to clean up the data is in the repo. The script will run the following process to generate tidy_data_all.txt:
 
 1. Merges the training and the test sets to create one data set.
 4. Appropriately labels the data set with descriptive variable names. 
